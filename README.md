@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# React Firebase Realtime Chat
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a chat application developed with React, focused on providing a real-time chat experience with Firebase integration. It uses modern technologies from the React ecosystem and provides a scalable and modular framework to facilitate development and maintenance.
+
+## Technologies Used
+
+- **React 18.2**: Library for building user interfaces.
+- **React Router Dom 6.9**: Routing library for navigation between pages.
+- **Firebase 9.17**: Platform for authentication, real-time database and storage.
+- **Sass 1.59**: CSS preprocessor that facilitates the use of variables, mixins and style nesting.
+- **UUID 9.0**: Library for generating universally unique identifiers.
+- **Testing Library**: Set of libraries for interface testing with React.
+
+## Startup Instructions
+
+To start the application, follow the steps below:
+
+### Install Dependencies
+
+On the command line, run the following command to install all required dependencies:
+
+```bash
+yarn install
+```
+
+### Run the Application
+
+To run the application in a development environment:
+
+```bash
+yarn start
+```
+
+This command starts the development server and opens the application in the browser.
+
+### Build for Production
+
+To build the production version of the application, run:
+
+```bash
+yarn build
+```
+
+This creates a `build` folder with the files optimized for production.
+
+## Folder Structure
+
+- **/src**: Contains the application's source code.
+- **components**: Reusable components.
+- **pages**: Main pages of the application.
+- **styles**: Style files using Sass.
+- **firebase.js**: Firebase configuration.
 
 ## Available Scripts
 
-In the project directory, you can run:
+- **start**: Starts the application in development mode.
+- **build**: Compiles the application for production.
+- **test**: Runs tests using `react-scripts`.
+- **eject**: Ejects `react-scripts` to customize the configuration.
 
-### `npm start`
+## Development Requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Node.js** and **Yarn**: Make sure they are installed on your machine.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Running the Tests
 
-### `npm test`
+To run the tests, use:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+yarn test
+```
